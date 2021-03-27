@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-7">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>API Home Credit</title>
+</head>
+<body>
+    <h2>API Home Credit</h1>
+        <form action="/display/" method="get">
+            <p>
+                Cette API permet de calculer la probabilité de défaut de paiement d'un client de Home Credit à partir de son identifiant (SK_ID_CURR).
+                <br/>
+                Cette probabilité peut être affichée dans cette fenêtre ou bien reçue sous format JSON.
+                <br/>
+                <br/>
+                Il est également possible de recevoir directement le résultat via l'URL .../score/<em>numéro de client</em> 
+            </p>
+            <label for="id">Identifiant:</label>
+            <input type="text" id="id" name="id">
+            
+            <div>
+                <button type="submit">Afficher</button>
+                <button type="submit" formaction="/return_score/">Recevoir</button>
+            </div>
+        </form> 
+</body>
+</html>

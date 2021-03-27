@@ -1,0 +1,94 @@
+.title {
+    height: 75px;
+    background-color: #E5ECF6;
+    text-align: center;
+}
+
+.title h1 {
+    padding-top: 15px;
+}
+
+.centered_title {
+    text-align: center;
+    z-index: 4;
+}
+
+#mean_score {
+    font-size: 5em;
+    text-align: center;
+}
+
+#div_shap_figure {
+    width: 100%;
+    height: 2000px;
+}
+
+#shap_waterfall {
+    width: 100%;
+    height: 1500px;
+}
+
+#pie_chart_container {
+    position: relative;
+    width: auto;
+    height: 220px;
+    overflow: hidden;
+}
+
+#pie_credits {
+    height: 170%;
+    position:absolute;
+    left:-30%;
+    top:-40%;
+}
+
+#importance_container {
+    position: relative;
+    width: auto;
+    height: 300px;
+    overflow: hidden;
+}
+
+#features_importance {
+    position: absolute;
+    left: 0%;
+    top: -32%
+}
+
+#histogram_container {
+    position: relative;
+    width: auto;
+    height: 370px;
+    overflow: hidden;
+}
+
+#histogram {
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: -25%;
+}
+
+#bottom_row1 {
+    border-top: 2px grey solid;
+    padding-top: 20px;
+}
+
+#bottom_row2 {
+    border-top: 2px grey solid;
+}
+
+#shap_figure_container{
+    position: relative;
+    width: auto;
+    height: 500px;
+    overflow: hidden;
+}
+
+#shap_waterfall {
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    left: -0%;
+    top: -18%;
+}
